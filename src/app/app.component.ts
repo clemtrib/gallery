@@ -7,20 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!'
-  images = [
-    { 
-		src: "Tom", 
-		name: "Hanks",
-		desc: "Hanks",
-		lat: "Hanks",
-		lon: "Hanks",
-		place: []
-	}
-  ] 
-  share() { 
-			console.log("fn share") 
-		}
-  focus() { 
-			console.log("fn focus") 
-		}
 }

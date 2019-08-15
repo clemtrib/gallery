@@ -1,0 +1,11 @@
+<div id="gallery">
+
+	<div *ngFor="let image of images">
+		
+		<a (click)="share()">
+			<img src="{{ image.src }}" alt="{{ image.desc }}"  title="{{ image.desc }}" (click)="share()" />
+		</a>
+
+	</div>
+
+</div>
